@@ -1,0 +1,75 @@
+{
+  "domain": "Cybersecurity",
+  "skills": [
+    {
+      "id": "networking-basics",
+      "name": "Networking Fundamentals",
+      "prerequisites": [],
+      "level": "beginner",
+      "objectives": [
+        "TCP/IP Model",
+        "IP Addressing and Subnetting",
+        "Common Protocols (HTTP, FTP, SSH, DNS)",
+        "Ports and Sockets"
+      ],
+      "estimated_hours": 6,
+      "assessment_type": "quiz"
+    },
+    {
+      "id": "linux-basics",
+      "name": "Linux for Security",
+      "prerequisites": [],
+      "level": "beginner",
+      "objectives": [
+        "Command line navigation",
+        "File permissions and ownership",
+        "Process management",
+        "Basic scripting (Bash)"
+      ],
+      "estimated_hours": 5,
+      "assessment_type": "practical_task"
+    },
+    {
+      "id": "web-security",
+      "name": "Web Security (OWASP Top 10)",
+      "prerequisites": ["networking-basics"],
+      "level": "intermediate",
+      "objectives": [
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Broken Authentication",
+        "Security Misconfigurations"
+      ],
+      "estimated_hours": 10,
+      "assessment_type": "code_challenge"
+    },
+    {
+      "id": "cryptography",
+      "name": "Cryptography Essentials",
+      "prerequisites": ["networking-basics"],
+      "level": "intermediate",
+      "objectives": [
+        "Symmetric vs Asymmetric encryption",
+        "Hashing algorithms",
+        "Digital signatures",
+        "Public Key Infrastructure (PKI)"
+      ],
+      "estimated_hours": 8,
+      "assessment_type": "quiz"
+    },
+    {
+      "id": "pentesting",
+      "name": "Penetration Testing",
+      "prerequisites": ["web-security", "linux-basics"],
+      "level": "advanced",
+      "objectives": [
+        "Reconnaissance and Scanning",
+        "Vulnerability assessment",
+        "Exploitation techniques",
+        "Post-exploitation and reporting"
+      ],
+      "estimated_hours": 15,
+      "assessment_type": "project"
+    }
+  ]
+}

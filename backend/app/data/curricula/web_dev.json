@@ -1,0 +1,89 @@
+{
+  "domain": "Web Development",
+  "skills": [
+    {
+      "id": "html-basics",
+      "name": "HTML5 Mastery",
+      "prerequisites": [],
+      "level": "beginner",
+      "objectives": [
+        "Semantic HTML elements",
+        "Forms and validation",
+        "Media tags (Audio/Video)",
+        "Accessibility (ARIA)"
+      ],
+      "estimated_hours": 4,
+      "assessment_type": "practical_task"
+    },
+    {
+      "id": "css-basics",
+      "name": "CSS3 & Layouts",
+      "prerequisites": ["html-basics"],
+      "level": "beginner",
+      "objectives": [
+        "Box Model",
+        "Flexbox and Grid",
+        "Responsive design with Media Queries",
+        "Animations and transitions"
+      ],
+      "estimated_hours": 6,
+      "assessment_type": "practical_task"
+    },
+    {
+      "id": "js-fundamentals",
+      "name": "JavaScript Essentials",
+      "prerequisites": ["css-basics"],
+      "level": "beginner",
+      "objectives": [
+        "Variables, Loops, Conditionals",
+        "Functions and Scope",
+        "DOM Manipulation",
+        "Event Handling"
+      ],
+      "estimated_hours": 10,
+      "assessment_type": "code_challenge"
+    },
+    {
+      "id": "js-advanced",
+      "name": "Advanced JavaScript",
+      "prerequisites": ["js-fundamentals"],
+      "level": "intermediate",
+      "objectives": [
+        "Promises and Async/Await",
+        "ES6+ Features",
+        "Fetch API and AJAX",
+        "Classes and Prototypes"
+      ],
+      "estimated_hours": 8,
+      "assessment_type": "code_challenge"
+    },
+    {
+      "id": "react-basics",
+      "name": "React.js Fundamentals",
+      "prerequisites": ["js-advanced"],
+      "level": "intermediate",
+      "objectives": [
+        "Components and Props",
+        "State and Hooks (useState, useEffect)",
+        "Handling Forms",
+        "Routing with React Router"
+      ],
+      "estimated_hours": 12,
+      "assessment_type": "project"
+    },
+    {
+      "id": "node-basics",
+      "name": "Backend with Node.js",
+      "prerequisites": ["js-advanced"],
+      "level": "intermediate",
+      "objectives": [
+        "Express.js setup",
+        "RESTful API design",
+        "Middleware",
+        "Authentication with JWT"
+      ],
+      "estimated_hours": 10,
+      "assessment_type": "project"
+    }
+  ]
+}

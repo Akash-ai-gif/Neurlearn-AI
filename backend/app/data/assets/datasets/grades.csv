@@ -1,0 +1,7 @@
+student_id,name,math_score,science_score,english_score,attendance
+S001,Alice,95,88,92,98
+S002,Bob,78,82,75,90
+S003,Charlie,88,90,85,95
+S004,David,65,70,68,80
+S005,Eva,92,95,90,99
+S006,Frank,70,65,72,85

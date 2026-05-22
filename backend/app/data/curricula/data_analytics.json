@@ -1,0 +1,90 @@
+{
+  "domain": "Data Analytics",
+  "skills": [
+    {
+      "id": "excel-basics",
+      "name": "Excel Basics",
+      "prerequisites": [],
+      "level": "beginner",
+      "objectives": [
+        "Navigate the Excel interface",
+        "Use basic formulas (SUM, AVERAGE, COUNT)",
+        "Format cells and create simple tables",
+        "Sort and filter data"
+      ],
+      "estimated_hours": 3,
+      "assessment_type": "practical_task"
+    },
+    {
+      "id": "excel-advanced",
+      "name": "Excel Advanced",
+      "prerequisites": ["excel-basics"],
+      "level": "intermediate",
+      "objectives": [
+        "VLOOKUP and HLOOKUP",
+        "Pivot tables",
+        "Conditional formatting",
+        "Charts and visualization"
+      ],
+      "estimated_hours": 5,
+      "assessment_type": "project"
+    },
+    {
+      "id": "sql-basics",
+      "name": "SQL Fundamentals",
+      "prerequisites": ["excel-basics"],
+      "level": "beginner",
+      "objectives": [
+        "SELECT, WHERE, ORDER BY",
+        "INSERT, UPDATE, DELETE",
+        "Filtering with AND, OR, IN",
+        "Aggregate functions (COUNT, SUM, AVG)"
+      ],
+      "estimated_hours": 6,
+      "assessment_type": "code_challenge"
+    },
+    {
+      "id": "sql-joins",
+      "name": "SQL JOINs",
+      "prerequisites": ["sql-basics"],
+      "level": "intermediate",
+      "objectives": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL OUTER JOIN",
+        "Multi-table queries"
+      ],
+      "estimated_hours": 4,
+      "assessment_type": "code_challenge"
+    },
+    {
+      "id": "stats-basics",
+      "name": "Statistics Fundamentals",
+      "prerequisites": ["excel-basics"],
+      "level": "beginner",
+      "objectives": [
+        "Mean, Median, Mode",
+        "Standard Deviation and Variance",
+        "Probability distributions",
+        "Hypothesis testing"
+      ],
+      "estimated_hours": 8,
+      "assessment_type": "quiz"
+    },
+    {
+      "id": "python-data",
+      "name": "Python for Data Analysis",
+      "prerequisites": ["sql-basics"],
+      "level": "intermediate",
+      "objectives": [
+        "Pandas DataFrames",
+        "NumPy arrays",
+        "Data cleaning and preparation",
+        "Basic visualization with Matplotlib"
+      ],
+      "estimated_hours": 10,
+      "assessment_type": "project"
+    }
+  ]
+}
