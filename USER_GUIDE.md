@@ -5,7 +5,7 @@ NeuroLearn is a cognitively adaptive educational platform that fuses real-time b
 
 ---
 
-## 🚀 The "Aarzu" Journey (Example User)
+## 🚀 The "John" Journey (Example User)
 
 To understand the power of NeuroLearn, let's walk through a typical session for **Aarzu**, an aspiring Data Analyst.
 
