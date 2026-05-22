@@ -1,15 +1,4 @@
-# 🧠 NeuroLearn — Project EliteDuo (Team #31)
-
-**Hackathon Track**: EdTech & Skill Development  
-**Team Name**: EliteDuo  
-**Team Number**: 31  
-
-## 🚀 Problem Statement
-**EdTech & Skill Development**: Build solutions that transform how people learn and develop skills. This track encourages ideas that make education more engaging, accessible, and effective for learners of all backgrounds.
-
-Traditional education often suffers from passive content consumption, fragmented curricula, and a lack of real-time cognitive feedback. **NeuroLearn** solves this by creating an **Agentic Educational OS** that adapts to the learner's specific career goals and mental states in real-time.
-
----
+# 🧠 NeuroLearn   
 
 ## ✨ Key Features
 
@@ -56,10 +45,3 @@ npm run dev
 
 ---
 
-## 👥 Team EliteDuo
-- **Team Number**: 31
-- **Focus**: Transforming education through Agentic AI and Cognitive Science.
-
----
-
-*Built for the Code Odyssey Hackathon.*
